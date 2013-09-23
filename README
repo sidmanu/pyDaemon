@@ -1,0 +1,25 @@
+
+Implements a simple Daemon in Python :)
+
+#######################################
+#How to run
+#######################################
+python mydaemon.py start
+
+#to stop
+python mydaemon.py stop
+
+#to restart
+python mydaemon.py restart
+
+#######################################
+#To check if daemon is running
+#######################################
+
+ps -eaf | grep daemon
+
+#Also check out the file /tmp/daemon-pidfile.pid 
+
+cat /tmp/daemon-pidfile.pid
+
+
